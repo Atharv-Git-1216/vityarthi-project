@@ -1,0 +1,100 @@
+💱 Currency Converter Project Report
+1. 📌 Introduction
+
+The Currency Converter is a Python-based application designed to convert an amount from one currency to another using predefined exchange rates. In today’s global economy, currency conversion is essential for travel, trade, and financial analysis. This project demonstrates the implementation of basic programming concepts to solve a real-world problem.
+
+2. 🎯 Objectives
+
+The main objectives of this project are:
+
+To develop a simple currency conversion system using Python
+To understand the use of functions and modular programming
+To implement user input handling and validation
+To perform mathematical computations for currency conversion
+To build a beginner-level real-world application
+3. 🛠️ Tools and Technologies Used
+Programming Language: Python 3
+Platform: Command Line Interface (CLI)
+Libraries Used: None (only built-in Python features)
+4. ⚙️ System Design
+
+The system is designed using a modular approach, consisting of the following functions:
+
+4.1 get_exchange_prices()
+Returns a dictionary containing exchange rates relative to USD
+Acts as the data source for conversion
+4.2 change_currency()
+Takes amount, source currency, and target currency as input
+Converts the amount using USD as an intermediate currency
+4.3 display_available_currencies()
+Displays all supported currencies to the user
+4.4 main()
+Controls the overall program flow
+Handles user input, validation, and output display
+5. 🔄 Working Principle
+
+The conversion process follows a two-step approach:
+
+Convert the given amount from the source currency to USD
+Convert the USD amount to the target currency
+Formula Used:
+Converted Amount
+=
+(
+Amount
+Source Rate
+)
+×
+Target Rate
+Converted Amount=(
+Source Rate
+Amount
+	​
+
+)×Target Rate
+
+This ensures accurate and consistent conversion between any two currencies.
+
+6. 📊 Features of the System
+Supports multiple international currencies (USD, INR, EUR, etc.)
+Provides real-time-like conversion using predefined rates
+Displays exchange rate used in calculation
+Handles invalid inputs gracefully
+Simple and user-friendly interface
+7. 💻 Sample Execution
+
+Input:
+
+Source Currency: INR
+Target Currency: USD
+Amount: 1000
+
+Output:
+
+1000 INR = 12.03 USD
+Exchange Rate: 1 INR = 0.0120 USD
+8. ⚠️ Limitations
+Exchange rates are fixed and not updated in real time
+Limited number of supported currencies
+No graphical user interface (GUI)
+Requires manual input from the user
+9. 🚀 Future Enhancements
+Integration with real-time currency exchange APIs
+Development of a graphical user interface (GUI)
+Web-based version using Flask or Django
+Addition of more currencies and cryptocurrencies
+Historical data and trend analysis
+10. 📚 Conclusion
+
+The Currency Converter project successfully demonstrates the use of Python programming to solve a practical problem. It highlights key concepts such as modular programming, user input handling, and mathematical computation. Although simple, the project provides a strong foundation for building more advanced financial applications.
+
+11. 🎯 Learning Outcomes
+
+Through this project, the following skills were developed:
+
+Understanding of Python functions and structure
+Working with dictionaries and data storage
+Input validation and error handling
+Logical thinking and problem-solving
+Building real-world beginner projects
+
