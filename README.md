@@ -1,7 +1,7 @@
 # Currency Converter
 
 ## Project Title
-**Simple Currency Converter - Python CLI Application**
+**Simple Currency Converter -Python CLI Application**
 
 ## Overview of the Project
 This is a simple command-line currency converter application built with Python. The program allows users to convert amounts between different currencies using pre-defined exchange rates. It provides a user-friendly interface where users can select source and target currencies, enter an amount, and instantly get the converted value along with the exchange rate.
