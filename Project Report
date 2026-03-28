@@ -70,7 +70,6 @@ Target Currency: USD
 Amount: 1000
 
 Output:
-
 1000 INR = 12.03 USD
 Exchange Rate: 1 INR = 0.0120 USD
 8. ⚠️ Limitations
@@ -84,8 +83,7 @@ Development of a graphical user interface (GUI)
 Web-based version using Flask or Django
 Addition of more currencies and cryptocurrencies
 Historical data and trend analysis
-10. 📚 Conclusion
-
+10. 📚 Conclusion :
 The Currency Converter project successfully demonstrates the use of Python programming to solve a practical problem. It highlights key concepts such as modular programming, user input handling, and mathematical computation. Although simple, the project provides a strong foundation for building more advanced financial applications.
 
 11. 🎯 Learning Outcomes
